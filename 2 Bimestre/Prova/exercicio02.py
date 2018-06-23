@@ -4,7 +4,8 @@ import queue
 import numpy as np
 #import matplotlib.pyplot as plt
 
-captura = cv2.VideoCapture('video.mp4')
+#captura = cv2.VideoCapture('video.mp4')
+captura = cv2.VideoCapture(0)
 
 while (1):
     ret, frame = captura.read()
